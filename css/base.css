@@ -85,9 +85,13 @@ nav{
     right: 0rem;
     width: 40px;
     height: 36px;
-    display: hidden;
     z-index: 50;
     background: var(--primcolor);
+}
+@media (min-width:768px) {
+    #menu{
+        display: none;
+    }
 }
 
 .menu-link, .menu-btn{
