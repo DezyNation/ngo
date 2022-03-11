@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="1920"
+   height="1080"
+   preserveAspectRatio="none"
+   viewBox="0 0 1920 1080"
+   id="svg19"
+   sodipodi:docname="missionbg.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.23333333"
+     inkscape:cx="919.28571"
+     inkscape:cy="610.71429"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <path
+     d="m 239.446,267.113 c 48.823,1.306 89.496,-33.222 113.974,-75.485 C 377.965,149.25 385.78,97.869 362.389,54.843 338.002,9.985 290.44,-20.58 239.446,-18.022 c -47.552,2.385 -81.67,41.792 -103.29,84.212 -19.405,38.074 -20.132,81.606 -0.594,119.612 21.548,41.917 56.77,80.051 103.884,81.311"
+     fill="rgba(115, 137, 40, 0.4)"
+     class="triangle-float2"
+     id="path2"
+     style="fill:#00aa44;fill-opacity:0.5" />
+  <path
+     d="m 1407.118,925.68429 c 34.348,-0.179 62.483,-22.444 81.45,-51.08 21.773,-32.872 43.218,-73.475 23.767,-107.772 -19.59,-34.544 -65.505,-35.897 -105.217,-35.848 -39.59,0.049 -85.057,1.773 -104.766,36.108 -19.661,34.252 0.065,75.415 21.834,108.368 19.092,28.901 48.294,50.404 82.932,50.224"
+     fill="rgba(115, 137, 40, 0.4)"
+     class="triangle-float1"
+     id="path4"
+     style="fill:#00aa44;fill-opacity:0.5" />
+  <path
+     d="m 158.712,1127.726 c 66.773,2.029 143.293,1.616 178.705,-55.03 36.742,-58.773 13.894,-134.453 -23.944,-192.527 -34.135,-52.392 -92.285,-84.364 -154.761,-81.754 -58.352,2.438 -103.484,43.94 -133.873,93.814 -32.025,52.56 -57.382,116.645 -26.965,170.152 30.652,53.92 98.844,63.462 160.838,65.345"
+     fill="rgba(115, 137, 40, 0.4)"
+     class="triangle-float1"
+     id="path6"
+     style="fill:#00aa44;fill-opacity:0.5" />
+  <path
+     d="m 1934.967,555.192 c 84.429,5.326 162.612,-47.345 203.2,-121.569 39.059,-71.427 32.007,-159.238 -12.298,-227.535 -40.687,-62.719 -116.207,-82.575 -190.902,-85.698 -82.489,-3.449 -180.238,-3.472 -220.71,68.489 -40.102,71.304 15.323,151.561 57.542,221.632 40.208,66.733 85.413,139.776 163.168,144.681"
+     fill="rgba(115, 137, 40, 0.4)"
+     class="triangle-float1"
+     id="path8"
+     style="fill:#00aa44;fill-opacity:0.5" />
+  <defs
+     id="defs17">
+    <mask
+       id="SvgjsMask1021">
+      <rect
+         width="1920"
+         height="1080"
+         fill="#ffffff"
+         id="rect12" />
+    </mask>
+    <style
+       id="style15">
+            @keyframes float1 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-10px, 0)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float1 {
+                animation: float1 5s infinite;
+            }
+
+            @keyframes float2 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-5px, -5px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float2 {
+                animation: float2 4s infinite;
+            }
+
+            @keyframes float3 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(0, -10px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float3 {
+                animation: float3 6s infinite;
+            }
+        </style>
+  </defs>
+</svg>

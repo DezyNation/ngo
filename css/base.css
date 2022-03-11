@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
 :root{
     --primcolor: #1C7947;
@@ -22,6 +22,7 @@ body{
 }
 
 section{
+    position: relative;
     min-height: 100vh;
 }
 a{
@@ -29,18 +30,24 @@ a{
 }
 
 
+.white-heading{
+    color: #FFF !important;
+}
+.white-heading-bar{
+    background: #FFF !important;
+}
 .main-heading{
     position: relative;
     width: 100%;
     height: auto;
     padding: 0 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--primcolor);
 }
 .main-heading-bar{
-    margin-top: 1rem;
+    margin-top: .5rem;
     width: 72px;
-    height: 12px;
+    height: 8px;
     background-color: var(--primcolor);
 }
 
@@ -76,6 +83,7 @@ nav{
 }
 
 .nav-logo{
+    font-size: .8rem;
     color: #FFF;
 }
 
@@ -96,7 +104,7 @@ nav{
 
 .menu-link, .menu-btn{
     color: #FFF;
-    font-size: 1rem;
+    font-size: .8rem;
     text-transform: uppercase;
     font-weight: 600;
     transition: all .3s ease-in-out;
@@ -186,6 +194,7 @@ footer{
     padding-bottom: .5rem;
     border-bottom: 2px solid var(--primcolor);
     color: var(--primcolor);
+    font-size: .8rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -200,7 +209,13 @@ footer{
     position: relative;
     margin-top: 0.75rem;
     width: 100%;
+    font-size: .75rem;
+    font-weight: 700;
     color: darkslategray;
+    transition: all .3s ease;
+}
+.footer-link:hover{
+    color: var(--primcolor);
 }
 
 .footer-branding{
@@ -210,11 +225,13 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-size: .9rem;
     color: var(--primcolor);
 }
 .footer-desc{
+    max-width: 80%;
+    font-size: .8rem;
     color: darkslategray;
-    max-width: 75%;
 }
 
 .social-heading{
