@@ -177,6 +177,7 @@
 }
 
 .message-section{
+    height: 120vh;
     padding: 2rem 0;
     background: #1c794793;
 }
@@ -191,6 +192,114 @@
     background-attachment: fixed;
     z-index: -1;
 }
+.message-container{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.message-container--left, .message-container--right{
+    position: relative;
+    padding: 2rem;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #FFF;
+}
+.president-img{
+    position: relative;
+    margin-top: 10%;
+    width: 280px;
+    height: auto;
+    border: 4px solid #FFF;
+}
+
+
+.form-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form-container--right, .form-container--left{
+    position: relative;
+    padding: 2rem;
+    width: 50%;
+    height: inherit;
+    display: grid;
+    place-content: center;
+    font-weight: 600;
+}
+.form-container--left p{
+    color: darkslategray;
+}
+.form-img{
+    position: relative;
+    width: 35vw;
+    height: 280px;
+    object-fit: cover;
+}
+
+.volunteer-form{
+    position: relative;
+    padding: 2rem;
+    width: 35vw;
+    height: auto;
+    background-color: var(--primcolor);
+    font-size: 1.2rem;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.35);
+}
+.form-row{
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+input, textarea{
+    padding: .5rem .75rem;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+    background: #FFF;
+    font-size: 1.2rem;
+}
+input{
+    width: 80%;
+}
+textarea{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 240px;
+    resize: none;
+    border-radius: 16px;
+}
+
+.volunteer-form--btn{
+    padding: .5rem .75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primcolor);
+    align-self: center;
+}
+
 
 
 @media (max-width: 768px) {
@@ -238,7 +347,51 @@
         width: 100%;
     }
     .mission-link{
-        font-size: .8rem;
+        padding: 0;
+        font-size: 1rem;
     }
 
+    .message-section{
+        height: auto;
+    }
+    .message-container{
+        flex-direction: column;
+    }
+    .message-container--left, .message-container--right{
+        width: 100%;
+        height: auto;
+    }
+    .president-img{
+        margin-top: 5%;
+    }
+
+    .form-container{
+        flex-direction: column;
+    }
+    .form-container--left p{
+        padding: 2rem 1rem;
+    }
+    .form-container--left, .form-container--right{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    .form-img{
+        margin-top: 1rem;
+        width: 90vw;
+        height: 160px;
+    }
+    .volunteer-form{
+        width: 100vw;
+        padding: 2rem 1rem 1rem;
+        font-size: 1rem;
+        box-shadow: unset;
+    }
+    input{
+        width: 70%;
+        font-size: 1rem;
+    }
+    textarea{
+        font-size: 1rem;
+    }
 }

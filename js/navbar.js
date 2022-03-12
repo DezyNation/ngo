@@ -1,25 +1,25 @@
 const navBar = document.getElementById("navbar");
-const menu = document.getElementById("menu");
+const stroke = document.getElementById("menu-stroke");
 var navVar = 0;
 
 function toggleMenu(){
     if(navVar%2 == 0){
-        navBar.style.height = "35vh";
-        menu.style.display = "flex";
+        navBar.style.height = "40vh";
+        stroke.style.stroke = "#000";
         navVar = 1;
     }
     else{
-        navBar.style.height = "9.6vh";
+        navBar.style.height = "10vh";
+        stroke.style.stroke = "#FFF";
         navVar = 0;
-        menu.style.display = "none";
     }
 }
 
 
 document.getElementById("hero").addEventListener("click", () =>{
     if(screen.width < 768){
-        navBar.style.height = "9.6vh";
+        navBar.style.height = "10vh";
+        stroke.style.stroke = "#FFF";
         navVar = 0;
-        menu.style.display = "none";
     }
 })

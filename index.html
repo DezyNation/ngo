@@ -14,7 +14,7 @@
     <header id="navbar">
         <nav>
             <a href="#" class="nav-logo"><h1>Student Guardian Teacher Welfare Society</h1></a>
-            <div class="right-menu">
+            <div class="right-menu" id="right-menu">
                 <a href="" class="menu-link">
                     <p>about us</p>
                     <div class="color-strip"></div>
@@ -33,9 +33,7 @@
             </div>
         </nav>
     </header>
-    <div id="menu">
-        <svg onclick="togglemenu()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 28" class="icon line" width="32" height="32"><path id="primary" d="M9,18H21M3,12H21M3,6H15" style="fill: #1C7947; stroke: #FFF; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
-    </div>
+    <svg id="menu" onclick="toggleMenu()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 28" class="icon line" width="32" height="32"><path id="menu-stroke" class="menu-stroke" d="M9,18H21M3,12H21M3,6H15" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
 
     <section class="hero" id="hero">
         <img src="img/herobg.jpg" class="hero-bg">
@@ -136,7 +134,63 @@
             <h1>President's Message</h1>
             <div class="main-heading-bar white-heading-bar"></div>
         </div>
+        <div class="message-container">
+            <div class="message-container--left">
+                <img src="img/owner.jpg" alt="Pankaj Khatri" class="president-img">
+                <br><br>
+                <p>Pankaj Khatri</p>
+                <p>President, SGTWS</p>
+            </div>
+            <div class="message-container--right">
+                <p class="message-content">
+                    We all are a family and this is what we believe in. All of our deeds should be devoted to the almighty.
+                    No one should be deprived of betterment in any case. We are educating the weaker section of our society in order to create a brighter future for them.
+                    The perfect blend of modern education and spirituality is the key to inculcate a sense of fraternity among all of us.
+                    <br><br>
+                    I invite you all to be a part of this revolution. A revolution for the welfare of everyone; our children, our brothers & sisters, our mother Earth and even our beloved animals.
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <section class="form-section">
+        <div class="main-heading">
+            <h1>Become A Member</h1>
+            <div class="main-heading-bar"></div>
+        </div>
+        <div class="form-container">
+            <div class="form-container--left">
+                <img src="img/1.jpg" alt="Join Us" class="form-img">
+                <br>
+                <p>
+                    We have strength and passion to bring a positive change in everyone's life. <strong>But with you, we can make this happen quickly and efficiently.</strong><br>
+                    We invite you to join us and be a part of this historic revolution. Together, we can bring smiles on millions of faces and secure a more beautiful & healthier future for our next generation.
+                    Let's create this world a better place for everyone!
+                    <br><br>
+                    Fill this short form and we will contact you soon.
+                </p>
+            </div>
+            <div class="form-container--right">
+                <form action="" class="volunteer-form">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age">
+                    </div>
+                    <div class="form-row">
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="volunteer-form--btn"><p>SEND!</p></button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <!-- Footer Starts Here -->
