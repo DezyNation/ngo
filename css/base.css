@@ -221,6 +221,11 @@ footer{
     font-size: .9rem;
     color: var(--primcolor);
 }
+.footer-logo{
+    position: relative;
+    width: auto;
+    height: 80px;
+}
 .footer-desc{
     max-width: 80%;
     font-size: .8rem;
