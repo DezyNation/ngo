@@ -146,6 +146,20 @@ nav{
 }
 
 
+
+.hero-title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 3rem;
+}
+.hero-desc{
+    max-width: 80%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+
 /* Footer Styling Starts Here */
 
 footer{

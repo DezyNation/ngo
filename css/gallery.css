@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+:root{
+    --primcolor: #1C7947;
+    --footercolor: #0F0E0E;
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+section{
+    min-height: unset;
+}
+.hero{
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.gallery-hero-bg{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery-hero-container{
+    position: absolute;
+    top: 0;
+    padding: 0 2.5%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-hero-content{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    position: relative;
+    padding: 4rem 2rem;
+    width: 100%;
+    min-height: 100vh;
+}
+.gallery-img{
+    border-radius: 16px;
+}
+
+
+@media (max-width: 768px) {
+
+    .hero{
+        top: 2.5vh;
+        min-height: 40vh;
+    }
+    .gallery-hero-bg{
+        height: 40vh;
+    }
+
+    .hero-title{
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .bricklayer-column-sizer {
+        /* divide by 2. */
+        width: 50%;
+    }
+}
