@@ -1,0 +1,45 @@
+.about-section{
+    position: relative;
+    padding: 4rem 2rem;
+}
+
+.about-wrapper{
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row{
+    flex-direction: row;
+}
+.row-reversed{
+    flex-direction: row-reverse;
+}
+
+.about-content{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    color: darkslategray;
+}
+.about-img{
+    position: relative;
+    width: 30%;
+    height: inherit;
+}
+.about-img img{
+    position: relative;
+    width: 360px;
+    height: auto;
+}
+
+.full-width-content{
+    position: relative;
+    margin-top: 10%;
+    padding: 1rem 3rem;
+    text-align: center;
+}
