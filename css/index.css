@@ -215,6 +215,61 @@
 }
 
 
+
+.home-gallery{
+    position: relative;
+    margin-bottom: 4rem;
+}
+.home-gallery-wrapper{
+    position: relative;
+    padding: 1rem 2rem;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.home-gallery-wrapper::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+.home-gallery-img{
+    position: relative;
+    border-radius: 16px;
+}
+.home-gallery-btn--div{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.home-gallery-btn{
+    position: relative;
+    padding: 1rem 0;
+    width: 60vw;
+    height: auto;
+    display: grid;
+    place-content: center;
+    background-color: rgb(64, 179, 64);
+    color: #FFF;
+    border-radius: 12px;
+    transition: all .3s ease;
+}
+.home-gallery-btn:hover{
+    background-color: forestgreen;
+}
+
+
+
 .form-container{
     position: relative;
     width: 100%;
@@ -356,6 +411,14 @@ textarea{
     }
     .president-img{
         margin-top: 5%;
+    }
+
+    .home-gallery-btn--div{
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .form-container{
